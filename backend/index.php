@@ -1,13 +1,12 @@
 <?php
 
 require_once 'conexion.php';
+require_once 'function.php';
 
 $errors = "";
 $success = "";
 $palabra = "";
 $letras = "";
-$p = " palabras";
-$l = " letras";
 
 if(isset($_POST['submit'])){
     $text = $_POST['text'];

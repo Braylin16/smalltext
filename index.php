@@ -32,8 +32,9 @@ require_once 'backend/index.php';
 
                 <?php if(isset($success) || isset($errors)) : ?>
                     <div class="messeger" role="informacion">
-                        <strong>Tu texto tiene <?php echo $palabra . " Palabras <br/>"; ?></strong>
-                        <strong>y texto tiene <?php echo $letras . " Letras <br/>"; ?></strong>
+                        <strong><?php echo $palabra . " Palabras <br/>"; ?></strong>
+                        <strong><?php echo $letras . " Letras <br/>"; ?></strong>
+                        <strong><?php if(isset($text)) {echo count(cantidad_párrafos("$text")) . " Párrafos <br/>";} ?></strong>
 
                         <b><?php echo $errors; ?></b>
                     </div>
@@ -44,7 +45,7 @@ require_once 'backend/index.php';
     </main>
     <footer role="pie-pagina">
         <p role="copyringht">Todos los derechos reservados. SmallText &copy;<?php echo date('Y'); ?></p>
-        <address role="contacto">Desarrollado con <span>&hearts;</span> amor por <a href="https://www.facebook.com/iban.pallano.3"
+        <address role="contacto">Desarrollado con <span>&hearts;</span> amor por <a role="direccion" href="https://www.facebook.com/iban.pallano.3"
          target="_blank" rel="noopener noreferrer">Braylin Ivan Payano</a></address>
     </footer>
     
