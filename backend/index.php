@@ -12,7 +12,7 @@ if(isset($_POST['submit'])){
     $text = $_POST['text'];
 
     if(empty($text)){
-        $errors .= "Debes introducir un texto";
+        $errors .= "Debes introducir un texto. <br/>";
     }
 
     $text = htmlspecialchars($text);
@@ -23,7 +23,9 @@ if(isset($_POST['submit'])){
     $letras = strlen($text); // Cuenta las letras de texto
 
     if($letras <= 100){
-        $errors .= "$letras letras y $palabra palabra es muy poco texto para tu sitio web";
+        $errors .= "$letras letras y $palabra palabra es muy poco texto para tu sitio web.";
+    }elseif($letras >= 60000){
+        $errors .= "Solo se permite un maximo de 60,000 letras.";
     }
 
     if($errors == ''){
