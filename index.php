@@ -32,9 +32,9 @@ require_once 'backend/index.php';
 
                 <?php if(isset($success)) : ?>
                     <div class="messeger" role="informacion">
-                        <strong><?php if(isset($text)) {echo $palabra . " Palabras <br/>";} ?></strong>
-                        <strong><?php if(isset($text)) {echo $letras . " Letras <br/>";} ?></strong>
-                        <strong><?php if(isset($text)) {echo count(cantidad_párrafos("$text")) . " Párrafos <br/>";} ?></strong>
+                        <strong><?php if(isset($text)) {echo $palabra . " - Palabras <br/>";} ?></strong>
+                        <strong><?php if(isset($text)) {echo $letras . " - Letras <br/>";} ?></strong>
+                        <strong><?php if(isset($text)) {echo count(cantidad_párrafos("$text")) . " - Párrafos <br/>";} ?></strong>
                     </div><br/>
                 <?php endif; ?>
                         <?php if(isset($errors)) : ?>

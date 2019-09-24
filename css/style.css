@@ -146,3 +146,47 @@ a[href="https://www.facebook.com/iban.pallano.3"] {
 a[href="https://www.facebook.com/iban.pallano.3"]:hover {
     text-decoration: #c3c3c3;
 }
+
+/* Hacer el sitio web Responsive */
+
+@media screen and (max-width: 800px) {
+    article {
+        width: 80%;
+        margin: 20% 5%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    article {
+        margin: 35% 5%;
+    }
+}
+
+@media screen and (max-width: 250px) {
+    article {
+        margin: 35% 2%;
+    }
+}
+
+@media screen and (max-width: 247px) {
+    button[type="submit"] {
+        width: 100%;
+        margin: 5px 0px;
+    }
+
+    button[type="reset"] {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 220px) {
+    article {
+        margin: 35% 1%;
+    }
+}
+
+@media screen and (max-width: 200px) {
+    article {
+        margin: 35% 0px;
+    }
+}
