@@ -11,8 +11,11 @@ require_once 'backend/index.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calcula cuantas Palabras, Letras o Párrafos tiene el texto de tu sitio web - SmallText</title>
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
@@ -22,7 +25,7 @@ require_once 'backend/index.php';
     <main role="contenido">
         <section role="seccion">
             <article role="articulo">
-                <h2 role="subtitulo">Calcula el texto de tu sitio web</h2>
+                <h1 role="subtitulo">Calcula el texto de tu sitio web</h1>
                 <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="POST" role="formulario">
                     <textarea name="text" autofocus required role="caja-de-texto"
                     placeholder="Pega aqui el texto para que nuestro robots lo examine"><?php if(isset($_POST["submit"])){echo $text;} ?></textarea><br/>
@@ -46,7 +49,7 @@ require_once 'backend/index.php';
     </main>
     <footer role="pie-pagina">
         <p role="copyringht">Todos los derechos reservados. SmallText &copy;<?php echo date('Y'); ?></p>
-        <address role="contacto">Desarrollado con <span role="corazon">&hearts;</span> amor por <a role="direccion" href="https://www.facebook.com/iban.pallano.3"
+        <address role="contacto">Desarrollado con <span role="corazon">&hearts;</span> amor por: <a role="direccion" href="https://www.facebook.com/iban.pallano.3"
          target="_blank" rel="noopener noreferrer">Braylin Ivan Payano</a></address>
     </footer>
     

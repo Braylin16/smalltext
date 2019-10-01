@@ -7,7 +7,6 @@ body {
     background-size: cover;
     background-position: center;
     font-family: 'Roboto', sans-serif;
-    opacity: 0.99;
 }
 
 header, a[href="index.php"] {
@@ -32,10 +31,10 @@ article {
     border-radius: 2px;
 }
 
-h2 {
+h1[role="subtitulo"] {
     text-align: center;
     color: rgb(41, 39, 39);
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     margin: 10px 10px;
 }
 
@@ -99,10 +98,6 @@ button[type="reset"]:hover {
     background-color: #8a5915;
 }
 
-.hidden {
-    visibility: hidden;
-}
-
 .messeger {
     width: 50%;
     height: auto;
@@ -126,12 +121,14 @@ p {
     color: white;
     margin-top: 20px;
     font-size: 1.1rem;
+    text-shadow: 1px 1px 1px #000;
 }
 
 address {
     text-align: center;
     color: white;
     font-size: 0.9rem;
+    text-shadow: 1px 1px 1px #000;
 }
 
 span {
@@ -140,12 +137,25 @@ span {
 }
 
 a[href="https://www.facebook.com/iban.pallano.3"] {
-    color: white;
+    color: rgb(70, 111, 165);
     cursor: pointer;
+    text-decoration: none;
+    background-color: black;
+    padding: 2px 5px;
+    border-radius: 2px;
 }
 
 a[href="https://www.facebook.com/iban.pallano.3"]:hover {
-    text-decoration: #c3c3c3;
+    color: rgb(59, 143, 238);
+}
+
+a[href="https://www.facebook.com/iban.pallano.3"]:focus {
+    color: rgb(161, 196, 228);
+}
+
+.facebook {
+    width: 4px;
+    height: 5px;
 }
 
 /* Hacer el sitio web Responsive */
@@ -153,19 +163,19 @@ a[href="https://www.facebook.com/iban.pallano.3"]:hover {
 @media screen and (max-width: 800px) {
     article {
         width: 80%;
-        margin: 20% 5%;
+        margin: 10% 5%;
     }
 }
 
 @media screen and (max-width: 350px) {
     article {
-        margin: 35% 5%;
+        margin: 10% 5%;
     }
 }
 
 @media screen and (max-width: 250px) {
     article {
-        margin: 35% 2%;
+        margin: 10% 2%;
     }
 }
 

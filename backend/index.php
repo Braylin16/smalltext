@@ -22,7 +22,7 @@ if(isset($_POST['submit'])){
     $palabra = str_word_count($text); //Cuenta las palabras de un texto
     $letras = strlen($text); // Cuenta las letras de texto
 
-    if($letras <= 100){
+    if($palabra <= 600){
         $errors .= "$letras letras y $palabra palabra es muy poco texto para tu sitio web.";
     }elseif($letras >= 60000){
         $errors .= "Solo se permite un maximo de 60,000 letras.";
@@ -30,11 +30,14 @@ if(isset($_POST['submit'])){
 
     if($errors == ''){
         $success = "Tu texto tiene ";
-        $statement = $conexion->prepare('INSERT INTO text (id, text) VALUES(
-            null, :text)'
+        $statement = $conexion->prepare('INSERT INTO text (id, text, letras, palabras, parrafos) VALUES(
+            null, :text, :letras, :palabras, :parrafos)'
         );
         $statement->execute(array(
-            ':text' => $text
+            ':text' => $text,
+            ':letras' => $letras,
+            ':palabras' => $palabra,
+            ':parrafos' => count(cantidad_párrafos("$text"))
         ));
 
     }
