@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Direcci&oacute;n url no encontrada - SmallText</title>
+    <!-- Description -->
+    <meta name="description" content="Pagina no encontrada, error en la direccion url que acaba de introducir.">
+    <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>
 <body>
