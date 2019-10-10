@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <meta name="author" content="Braylin Ivan Payano">
+    <!-- Dueño de la pagina -->
+    <meta name="owner" content="Braylin Ivan Payano">
     <!-- Favicon -->
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 </head>

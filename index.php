@@ -10,13 +10,17 @@ require_once 'backend/index.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calcula cuantas Palabras, Letras o Párrafos tiene el texto de tu sitio web - SmallText</title>
+    <title>Calcula cuantas Palabras, Letras o Párrafos tiene el texto de tu sitio web | SmallText</title>
     <!-- Descripcion de la pagina -->
     <meta name="description" content="Si quieres saber la cantidad de palabras, letras o párrafos que existen en un articulo de tu sitio web, solo tienes que pegar el texto de tu articulo y dejar que nuestro sitio web lo examine.">
     <!-- Etiquetas -->
-    <meta name="keywords" content="Tool, Texto, Calcula la cantidad de texto, Calcula el texto de tu sitio web, contar texto, contar palabras, contador de parrafos, contar letras, contar el texto de un sitio web">
+    <meta name="keywords" content="contador de letras, calcula parrafos, contar palabras">
     <!-- Autor -->
     <meta name="author" content="Braylin Ivan Payano">
+    <!-- Dueño de la pagina -->
+    <meta name="owner" content="Braylin Ivan Payano">
+    <!-- indexacion de Google -->
+    <meta name="robots" content="index, follow">
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Google Font -->
