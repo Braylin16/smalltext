@@ -31,7 +31,7 @@ article {
     border-radius: 2px;
 }
 
-h1[role="subtitulo"] {
+h2 {
     text-align: center;
     color: rgb(41, 39, 39);
     font-size: 1.6rem;
