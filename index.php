@@ -10,7 +10,7 @@ require_once 'backend/index.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Calcula cuantas Palabras, Letras o Párrafos tiene el texto de tu sitio web | SmallText</title>
+    <title>Calcula cuantas Palabras, Letras o Párrafos tiene el texto de tu sitio web | SmallTexts</title>
     <!-- Descripcion de la pagina -->
     <meta name="description" content="Si quieres saber la cantidad de palabras, letras o párrafos que existen en un articulo de tu sitio web, solo tienes que pegar el texto de tu articulo y dejar que nuestro sitio web lo examine.">
     <!-- Etiquetas -->
@@ -30,7 +30,7 @@ require_once 'backend/index.php';
 </head>
 <body>
     <header>
-        <h1><a href="index.php">SmallText</a></h1>
+        <h1><a href="index.php">SmallTexts</a></h1>
     </header>
     <main>
         <section>
@@ -58,7 +58,8 @@ require_once 'backend/index.php';
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados. SmallText &copy;<?php echo date('Y'); ?></p>
+        <p>Todos los derechos reservados. SmallTexts &copy;<?php echo date('Y'); ?></p>
+        <p><a href="terminos-y-condiciones.php">T&eacute;rmino y Condiciones</a></p>
         <address>Desarrollado con <span>&hearts;</span> amor por: <a href="https://www.facebook.com/iban.pallano.3"
          target="_blank" rel="noopener noreferrer">Braylin Ivan Payano</a></address>
     </footer>

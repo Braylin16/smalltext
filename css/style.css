@@ -158,6 +158,12 @@ a[href="https://www.facebook.com/iban.pallano.3"]:focus {
     height: 5px;
 }
 
+.text {
+    color: rgba(22, 10, 10, 0.678);
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
 /* Hacer el sitio web Responsive */
 
 @media screen and (max-width: 800px) {

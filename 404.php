@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Direcci&oacute;n url no encontrada - SmallText</title>
+    <title>Direcci&oacute;n url no encontrada | SmallTexts</title>
     <!-- Description -->
     <meta name="description" content="Pagina no encontrada, error en la direccion url que acaba de introducir.">
     <!-- Estilos CSS -->
@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.php">SmallText</a></h1>
+        <h1><a href="index.php">SmallTexts</a></h1>
     </header>
     <main>
         <section>
@@ -31,7 +31,8 @@
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados. SmallText &copy;<?php echo date('Y'); ?></p>
+        <p>Todos los derechos reservados. SmallTexts &copy;<?php echo date('Y'); ?></p>
+        <p><a href="terminos-y-condiciones.php">T&eacute;rmino y Condiciones</a></p>
         <address>Desarrollado con <span>&hearts;</span> amor por: <a href="https://www.facebook.com/iban.pallano.3"
          target="_blank" rel="noopener noreferrer">Braylin Ivan Payano</a></address>
     </footer>
