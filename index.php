@@ -43,11 +43,23 @@ require_once 'backend/index.php';
                     <button type="reset">Limpiar</button>
                 </form>
 
-                <?php if(isset($success)) : ?>
+                <?php if(isset($_POST['submit'])) : ?>
                     <div class="messeger">
-                        <strong><?php if(isset($text)) {echo $palabra . " - Palabras <br/>";} ?></strong>
-                        <strong><?php if(isset($text)) {echo $letras . " - Letras <br/>";} ?></strong>
-                        <strong><?php if(isset($text)) {echo count(cantidad_párrafos("$text")) . " - Párrafos <br/>";} ?></strong>
+
+                        <table>
+                            <caption>Resultados:</caption>
+                            <tr>
+                                <th>Letras</th>
+                                <th>Palabras</th>
+                                <th>Párrafos</th>
+                            </tr>
+                            <tr>
+                                <td><strong><?php if(isset($text)) {echo $letras;} ?></strong></td>
+                                <td><strong><?php if(isset($text)) {echo $palabra;} ?></strong></td>
+                                <td><strong><?php if(isset($text)) {echo count(cantidad_párrafos("$text"));} ?></strong></td>
+                            </tr>
+                        </table>
+
                     </div><br/>
                 <?php endif; ?>
                         <?php if(isset($errors)) : ?>

@@ -104,6 +104,23 @@ button[type="reset"]:hover {
     margin: 2px 30%;
 }
 
+table {
+    padding: 5px 15px;
+    color: rgb(41, 39, 39);
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid rgb(41, 39, 39);;
+}
+
+th {
+    padding: 3px 10px;
+}
+
+th:hover {
+    color: #e08e1a;
+}
+
 strong {
     text-align: center;
     font-size: 1.3rem;
@@ -111,7 +128,6 @@ strong {
 }
 
 b {
-    text-align: center;
     font-size: 1.3rem;
     color: rgb(173, 38, 20);
 }
