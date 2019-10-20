@@ -83,9 +83,10 @@ button[type="submit"]:hover {
     transition-duration: 2s all;
 }
 
-button[type="reset"] {
+#limpiar {
     color: white;
     padding: 10px 15px;
+    margin-right: -1%;
     background-color: #e08e1a;
     border: none;
     border-radius: 2px;
@@ -94,14 +95,14 @@ button[type="reset"] {
     float: right;
 }
 
-button[type="reset"]:hover {
+#limpiar:hover {
     background-color: #8a5915;
 }
 
 .messeger {
     width: 50%;
     height: auto;
-    margin: 2px 30%;
+    margin: 2px 27%;
 }
 
 table {
@@ -128,7 +129,7 @@ strong {
 }
 
 b {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     color: rgb(173, 38, 20);
 }
 
@@ -182,16 +183,54 @@ a[href="https://www.facebook.com/iban.pallano.3"]:focus {
 
 /* Hacer el sitio web Responsive */
 
+@media screen and (max-width: 1000px) {
+    .messeger {
+        margin: 2px 22%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .messeger {
+        margin: 2px 18%;
+    }
+}
+
 @media screen and (max-width: 800px) {
     article {
         width: 80%;
         margin: 10% 5%;
+    }
+
+    .messeger {
+        margin: 2px 23%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .messeger {
+        margin: 2px 13%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .messeger {
+        margin: 2px 7%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .messeger {
+        margin: 2px 2%;
     }
 }
 
 @media screen and (max-width: 350px) {
     article {
         margin: 10% 5%;
+    }
+
+    .messeger {
+        margin: 2px 0%;
     }
 }
 

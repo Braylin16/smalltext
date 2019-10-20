@@ -40,7 +40,7 @@ require_once 'backend/index.php';
                     <textarea name="text" autofocus required
                     placeholder="Pega aqui el texto para que nuestro robot lo examine"><?php if(isset($_POST["submit"])){echo $text;} ?></textarea><br/>
                     <button type="submit" name="submit">Examinar</button>
-                    <button type="reset">Limpiar</button>
+                    <a href="index.php" id="limpiar">Limpiar</a>
                 </form>
 
                 <?php if(isset($_POST['submit'])) : ?>
