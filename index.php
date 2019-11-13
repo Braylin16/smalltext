@@ -71,7 +71,7 @@ require_once 'backend/index.php';
     </main>
     <footer>
         <p>Todos los derechos reservados. SmallTexts &copy;<?php echo date('Y'); ?></p>
-        <p><a href="terminos-y-condiciones.php">T&eacute;rmino y Condiciones</a></p>
+        <p><a href="terminos-y-condiciones">T&eacute;rmino y Condiciones</a></p>
         <address>Desarrollado con <span>&hearts;</span> amor por: <a href="https://www.facebook.com/iban.pallano.3"
          target="_blank" rel="noopener noreferrer">Braylin Ivan Payano</a></address>
     </footer>
