@@ -3,4 +3,7 @@ ErrorDocument 404 http://localhost/smalltext/404
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.php -f
-RewriteRule ^(.*)$ $1.php 
+RewriteRule ^(.*)$ $1.php
+
+# Evitar que lean el codigo CSS del sitio web
+IndexIgnore *
