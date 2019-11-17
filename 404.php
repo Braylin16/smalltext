@@ -19,7 +19,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.php">SmallTexts</a></h1>
+        <h1><a href="/smalltext">SmallTexts</a></h1>
     </header>
     <main>
         <section>
@@ -27,6 +27,7 @@
                 <h2>Upss! ha ocurrido un error, direcci&oacute;n url no encontrada.</h2>
                 <img src="img/404.png" title="Error 404" alt="Error 404, direccion no encontrada">
                 <h3>404</h3>
+                <p><a href="/smalltext" id="volver">Volver a inicio</a></p>
             </article>
         </section>
     </main>
