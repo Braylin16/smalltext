@@ -30,7 +30,7 @@ require_once 'backend/index.php';
 </head>
 <body>
     <header>
-        <h1><a href="index.php">SmallTexts</a></h1>
+        <h1><a href="/smalltext">SmallTexts</a></h1>
     </header>
     <main>
         <section>
@@ -40,7 +40,7 @@ require_once 'backend/index.php';
                     <textarea name="text" autofocus required
                     placeholder="Pega aqui el texto para que nuestro robot lo examine"><?php if(isset($_POST["submit"])){echo $text;} ?></textarea><br/>
                     <button type="submit" name="submit">Examinar</button>
-                    <a href="index.php" id="limpiar">Limpiar</a>
+                    <a href="/smalltext" id="limpiar">Limpiar</a>
                 </form>
 
                 <?php if(isset($_POST['submit'])) : ?>

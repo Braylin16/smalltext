@@ -9,7 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header, a[href="index.php"] {
+header, a[href="/smalltext"] {
     color: rgba(245, 130, 53, 0.836);
     margin: 2px 35px;
     padding: 10px 0px;
@@ -93,9 +93,25 @@ button[type="submit"]:hover {
     cursor: pointer;
     font-size: 1.1rem;
     float: right;
+    text-decoration: none;
 }
 
 #limpiar:hover {
+    background-color: #8a5915;
+}
+
+#volver {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.3rem;
+    background-color: #e08e1a;
+    border-radius: 2px;
+    padding: 10px 10px;
+    box-shadow: 3px 3px 2px #838080;
+}
+
+#volver:hover {
     background-color: #8a5915;
 }
 
